@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eafbdb1a_724c6bbc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-12-20T03:45:33Z",
+      "side": 1,
+      "message": "bandaid, most of the lineage devices don\u0027t build this, fixes it while a proper fix is brought in so that people syncing this repo don\u0027t get build failures due to how hard it is to namespace all of this.",
+      "revId": "9d37fbca2f35dd3bab47c60d2e823bd4644d251b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
