@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "64c6e6e3_d96284a1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 17401
+      },
+      "writtenOn": "2024-12-21T19:37:04Z",
+      "side": 1,
+      "message": "nothing uses the ExynosA2DPOffload@2.0 hal besides a2dp@1.0 which in turn is used by nothing officially supported\n\nsee:\nhttps://github.com/search?q\u003dorg%3ALineageOS%20android.hardware.bluetooth.a2dp%401.0-impl-exynos\u0026type\u003dcode\nhttps://github.com/search?q\u003dorg%3ALineageOS%20vendor.samsung_slsi.hardware.ExynosA2DPOffload\u0026type\u003dcode",
+      "revId": "1610021dfbfbfaf0ef7803032fe523dc5067d5a1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
