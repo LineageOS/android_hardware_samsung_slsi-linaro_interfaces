@@ -1,0 +1,10 @@
+package vendor.samsung_slsi.telephony.hardware.radioExternal@1.1;
+
+import @1.0::IOemSlsiRadioExternal;
+import @1.0::IOemSlsiRadioExternalRes;
+import @1.0::IOemSlsiRadioExternalInd;
+
+interface IOemSlsiRadioExternal extends @1.0::IOemSlsiRadioExternal {
+    setResponseFunctions_1_1(IOemSlsiRadioExternalRes oemResponse, IOemSlsiRadioExternalInd oemIndication, string name) generates (int32_t clientId);
+    oneway setIndicationFilter(int32_t clientId, vec<int32_t> indicationFilter);
+};
