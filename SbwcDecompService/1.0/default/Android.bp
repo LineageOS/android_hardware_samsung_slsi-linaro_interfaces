@@ -17,6 +17,7 @@
 cc_binary {
     name: "vendor.samsung_slsi.hardware.SbwcDecompService@1.0-service",
     init_rc: ["vendor.samsung_slsi.hardware.SbwcDecompService@1.0-service.rc",],
+    vintf_fragments: ["vendor.samsung_slsi.hardware.SbwcDecompService@1.0-service.xml"],
     relative_install_path: "hw",
     proprietary: true,
     srcs: [
