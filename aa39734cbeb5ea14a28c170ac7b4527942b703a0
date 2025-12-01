@@ -16,6 +16,23 @@
       "message": "```\nnolenjohnson@ODS-PROD:~/dumps/motorola/troika/dump$ grep -r libepicoperator\ngrep: vendor/lib64/omx/libOMX.Exynos.VP8.Decoder.so: binary file matches\ngrep: vendor/lib64/omx/libOMX.Exynos.MPEG4.Encoder.so: binary file matches\ngrep: vendor/lib64/omx/libOMX.Exynos.HEVC.Encoder.so: binary file matches\ngrep: vendor/lib64/omx/libOMX.Exynos.AVC.Encoder.so: binary file matches\ngrep: vendor/lib64/omx/libOMX.Exynos.WMV.Decoder.so: binary file matches\ngrep: vendor/lib64/omx/libOMX.Exynos.VP9.Decoder.so: binary file matches\ngrep: vendor/lib64/omx/libOMX.Exynos.HEVC.Decoder.so: binary file matches\ngrep: vendor/lib64/omx/libOMX.Exynos.MPEG4.Decoder.so: binary file matches\ngrep: vendor/lib64/omx/libOMX.Exynos.VP9.Encoder.so: binary file matches\ngrep: vendor/lib64/omx/libOMX.Exynos.AVC.Decoder.so: binary file matches\ngrep: vendor/lib64/omx/libOMX.Exynos.VP8.Encoder.so: binary file matches\ngrep: vendor/lib64/libepicoperator.so: binary file matches\ngrep: vendor/lib/omx/libOMX.Exynos.VP8.Decoder.so: binary file matches\ngrep: vendor/lib/omx/libOMX.Exynos.MPEG4.Encoder.so: binary file matches\ngrep: vendor/lib/omx/libOMX.Exynos.HEVC.Encoder.so: binary file matches\ngrep: vendor/lib/omx/libOMX.Exynos.AVC.Encoder.so: binary file matches\ngrep: vendor/lib/omx/libOMX.Exynos.WMV.Decoder.so: binary file matches\ngrep: vendor/lib/omx/libOMX.Exynos.VP9.Decoder.so: binary file matches\ngrep: vendor/lib/omx/libOMX.Exynos.HEVC.Decoder.so: binary file matches\ngrep: vendor/lib/omx/libOMX.Exynos.MPEG4.Decoder.so: binary file matches\ngrep: vendor/lib/omx/libOMX.Exynos.VP9.Encoder.so: binary file matches\ngrep: vendor/lib/omx/libOMX.Exynos.AVC.Decoder.so: binary file matches\ngrep: vendor/lib/omx/libOMX.Exynos.VP8.Encoder.so: binary file matches\ngrep: vendor/lib/libepicoperator.so: binary file matches\n```\n\nSure looks like it...",
       "revId": "aa39734cbeb5ea14a28c170ac7b4527942b703a0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c610e82d_fccd83c2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35850
+      },
+      "writtenOn": "2025-12-01T22:13:38Z",
+      "side": 1,
+      "message": "You can disable EPIC in OMX.\nhttps://github.com/LineageOS/android_hardware_samsung_slsi-linaro_openmax/blob/10eee2c2fcbb018b267dab572cbf0793d44dd99f/openmax/osal/Android.bp#L99",
+      "revId": "aa39734cbeb5ea14a28c170ac7b4527942b703a0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
