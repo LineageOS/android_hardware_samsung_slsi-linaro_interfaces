@@ -50,6 +50,24 @@
       "message": "My bad. Just noticed that moto 9610 OMX uses custom component store so it\u0027s impossible. How about this shim?\nhttps://github.com/linux4-bringup-priv/android_device_samsung_exynos9820-common/commit/d78ec9729b90f33b64360ab4938d6c8a1bfceead",
       "revId": "aa39734cbeb5ea14a28c170ac7b4527942b703a0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bb2c6781_a97a80a9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-01T23:35:35Z",
+      "side": 1,
+      "message": "is that truly the only function called? what did it do before?",
+      "parentUuid": "b2f12867_83646ee7",
+      "revId": "aa39734cbeb5ea14a28c170ac7b4527942b703a0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
