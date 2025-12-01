@@ -33,6 +33,23 @@
       "message": "You can disable EPIC in OMX.\nhttps://github.com/LineageOS/android_hardware_samsung_slsi-linaro_openmax/blob/10eee2c2fcbb018b267dab572cbf0793d44dd99f/openmax/osal/Android.bp#L99",
       "revId": "aa39734cbeb5ea14a28c170ac7b4527942b703a0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b2f12867_83646ee7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35850
+      },
+      "writtenOn": "2025-12-01T22:16:05Z",
+      "side": 1,
+      "message": "My bad. Just noticed that moto 9610 OMX uses custom component store so it\u0027s impossible. How about this shim?\nhttps://github.com/linux4-bringup-priv/android_device_samsung_exynos9820-common/commit/d78ec9729b90f33b64360ab4938d6c8a1bfceead",
+      "revId": "aa39734cbeb5ea14a28c170ac7b4527942b703a0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
