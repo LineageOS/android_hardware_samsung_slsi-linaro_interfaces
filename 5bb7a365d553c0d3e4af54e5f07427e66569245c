@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c114d011_9f8f4c54",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35850
+      },
+      "writtenOn": "2025-12-01T20:29:33Z",
+      "side": 1,
+      "message": "Moto 9610 uses this - Is it actually required?",
+      "revId": "5bb7a365d553c0d3e4af54e5f07427e66569245c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
