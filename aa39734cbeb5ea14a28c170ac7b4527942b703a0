@@ -120,6 +120,24 @@
       "message": "@johnsonnolen@gmail.com I only now realized that you grepped the stock firmware dump. As Linu4 pointed out to me, Moto 9610 uses OSS OMX which doesn\u0027t require EPIC unless explicitly set as per https://github.com/LineageOS/android_hardware_samsung_slsi-linaro_openmax/commit/6dede6cb9afa2f36dac7932f06343a9e979fec8b. Hence libepicoperator is unused and can be dropped.",
       "revId": "aa39734cbeb5ea14a28c170ac7b4527942b703a0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d0b1e32a_9375c777",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-02T20:13:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8d19c583_a8c2b7a6",
+      "revId": "aa39734cbeb5ea14a28c170ac7b4527942b703a0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
