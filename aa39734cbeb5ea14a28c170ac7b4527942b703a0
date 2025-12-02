@@ -68,6 +68,24 @@
       "parentUuid": "b2f12867_83646ee7",
       "revId": "aa39734cbeb5ea14a28c170ac7b4527942b703a0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8d19c583_a8c2b7a6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35850
+      },
+      "writtenOn": "2025-12-02T07:18:27Z",
+      "side": 1,
+      "message": "At least on Exynos, yeah.",
+      "parentUuid": "bb2c6781_a97a80a9",
+      "revId": "aa39734cbeb5ea14a28c170ac7b4527942b703a0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
