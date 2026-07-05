@@ -2,7 +2,7 @@
 
 hidl_interface {
     name: "vendor.samsung_slsi.telephony.hardware.radioExternal@1.0",
-    root: "vendor.samsung_slsi.telephony.hardware",
+    root: "vendor.samsung_slsi",
     system_ext_specific: true,
     srcs: [
         "types.hal",
