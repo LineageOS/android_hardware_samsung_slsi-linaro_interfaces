@@ -1,0 +1,31 @@
+aidl_interface {
+    name: "vendor.samsung_slsi.hardware.SbwcDecompService",
+    vendor_available: true,
+    srcs: [
+        "vendor/samsung_slsi/hardware/SbwcDecompService/*.aidl",
+    ],
+    stability: "vintf",
+    imports: [
+        "android.hardware.common-V2",
+    ],
+    backend: {
+        cpp: {
+            enabled: false,
+        },
+        java: {
+            enabled: false,
+        },
+        ndk: {
+            enabled: true,
+        },
+    },
+    owner: "samsung",
+    frozen: true,
+    versions_with_info: [
+        {
+            version: "1",
+            imports: ["android.hardware.common-V2"],
+        },
+    ],
+
+}

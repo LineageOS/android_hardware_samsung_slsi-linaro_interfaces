@@ -15,11 +15,14 @@
  * limitations under the License.
  */
 
-package vendor.samsung_slsi.hardware.SbwcDecompService@1.0;
+package vendor.samsung_slsi.hardware.SbwcDecompService;
 
+import android.hardware.common.NativeHandle;
+
+@VintfStability
 interface ISbwcDecompService {
-    decode(handle srcHandle, handle dstHandle, uint32_t attr) generates (int32_t error);
-    decodeWithFramerate(handle srcHandle, handle dstHandle, uint32_t attr, uint32_t framerate) generates (int32_t error);
-    decodeWithCrop(handle srcHandle, handle dstHandle, uint32_t attr, uint32_t cropWidth, uint32_t cropHeight) generates (int32_t error);
-    decodeWithCropAndFps(handle srcHandle, handle dstHandle, uint32_t attr, uint32_t cropWidth, uint32_t cropHeight, uint32_t framerate) generates (int32_t error);
-};
+    int decode(in NativeHandle srcHandle, in NativeHandle dstHandle, in int attr);
+    int decodeWithFramerate(in NativeHandle srcHandle, in NativeHandle dstHandle, in int attr, in int framerate);
+    int decodeWithCrop(in NativeHandle srcHandle, in NativeHandle dstHandle, in int attr, in int cropWidth, in int cropHeight);
+    int decodeWithCropAndFps(in NativeHandle srcHandle, in NativeHandle dstHandle, in int attr, in int cropWidth, in int cropHeight, in int framerate);
+}

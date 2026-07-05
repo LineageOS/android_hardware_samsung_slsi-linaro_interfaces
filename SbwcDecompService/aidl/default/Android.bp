@@ -15,9 +15,9 @@
 // limitations under the License.
 
 cc_binary {
-    name: "vendor.samsung_slsi.hardware.SbwcDecompService@1.0-service",
-    init_rc: ["vendor.samsung_slsi.hardware.SbwcDecompService@1.0-service.rc",],
-    vintf_fragments: ["vendor.samsung_slsi.hardware.SbwcDecompService@1.0-service.xml"],
+    name: "vendor.samsung_slsi.hardware.SbwcDecompService-service",
+    init_rc: ["vendor.samsung_slsi.hardware.SbwcDecompService-service.rc",],
+    vintf_fragments: ["vendor.samsung_slsi.hardware.SbwcDecompService-service.xml"],
     relative_install_path: "hw",
     proprietary: true,
     srcs: [
@@ -25,19 +25,20 @@ cc_binary {
         "service.cpp",
     ],
     shared_libs: [
-        "libhidlbase",
-        "libhidlmemory",
         "libutils",
         "libcutils",
-        "libbinder",
+        "libbinder_ndk",
         "liblog",
+        "libbase",
         "libui",
         "libion",
         "libexynosgraphicbuffer",
-        "vendor.samsung_slsi.hardware.SbwcDecompService@1.0",
+        "android.hardware.common-V2-ndk",
+        "vendor.samsung_slsi.hardware.SbwcDecompService-V1-ndk",
         "libsbwcwrapper",
     ],
     static_libs: [
+        "libaidlcommonsupport",
         "libsbwc",
     ],
     header_libs: ["libexynos_headers"],
