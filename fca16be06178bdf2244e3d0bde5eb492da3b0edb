@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f22a1b8f_8482e1ec",
+        "filename": "SbwcDecompService/aidl/default/SbwcDecompService.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 34207
+      },
+      "writtenOn": "2026-07-05T14:47:13Z",
+      "side": 1,
+      "message": "Should be a class.",
+      "range": {
+        "startLine": 28,
+        "startChar": 0,
+        "endLine": 28,
+        "endChar": 6
+      },
+      "revId": "fca16be06178bdf2244e3d0bde5eb492da3b0edb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
