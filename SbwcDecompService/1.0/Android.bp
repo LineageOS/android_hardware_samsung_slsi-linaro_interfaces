@@ -2,7 +2,7 @@
 
 hidl_interface {
     name: "vendor.samsung_slsi.hardware.SbwcDecompService@1.0",
-    root: "vendor.samsung_slsi.hardware.SbwcDecompService",
+    root: "vendor.samsung_slsi.hardware",
     srcs: [
         "ISbwcDecompService.hal",
     ],

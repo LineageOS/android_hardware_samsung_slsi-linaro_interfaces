@@ -2,7 +2,7 @@
 
 hidl_interface {
     name: "vendor.samsung_slsi.hardware.ExynosA2DPOffload@1.0",
-    root: "vendor.samsung_slsi.hardware.ExynosA2DPOffload",
+    root: "vendor.samsung_slsi.hardware",
     srcs: [
         "types.hal",
         "IExynosA2DPOffload.hal",
