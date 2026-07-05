@@ -11,11 +11,6 @@ hidl_package_root {
 }
 
 hidl_package_root {
-    name: "vendor.samsung_slsi.hardware.SbwcDecompService",
-    path: "hardware/samsung_slsi-linaro/interfaces/SbwcDecompService",
-}
-
-hidl_package_root {
     name: "vendor.samsung_slsi.telephony.hardware",
     path: "hardware/samsung_slsi-linaro/interfaces/telephony",
 }
